@@ -140,7 +140,8 @@
         android:textAlignment="textStart"
         android:textColor="@color/black"
         android:textSize="16sp"
-        android:drawableLeft="@drawable/google"/>
+        android:drawableLeft="@drawable/google"
+        android:onClick="callSignInGoogle"/>
 
     <Button
         android:id="@+id/facebook_button"
