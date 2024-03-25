@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "505202851200",
+    "project_id": "sportapp-b3aec",
+    "storage_bucket": "sportapp-b3aec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505202851200:android:e72a8444e91d77ad0ad565",
+        "android_client_info": {
+          "package_name": "com.alvdela.sportapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiaPZ4_GFHYLsx2XJtgTclRytsDOTWXIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
