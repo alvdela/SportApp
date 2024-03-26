@@ -39,4 +39,54 @@
     <string name="orderby_distanceAZ">Distancia (Menores primero)</string>
     <string name="orderby_avgspeedAZ">Vel. Prom. (Menores primero)</string>
     <string name="orderby_maxspeedAZ">Vel. Máx. (Menores primero)</string>
+
+    <string name="start">START</string>
+    <string name="stop">STOP</string>
+    <string name="finish">FINISH</string>
+    <string name="rounds">Round 1</string>
+    <string name="time_running">Running Time</string>
+    <string name="time_walking">Walking Time</string>
+    <string name="walking_clock">00:00</string>
+    <string name="init_stop_watch_value">00:00:00</string>
+
+    <string name="hard_volumen">Running music volume</string>
+    <string name="soft_volumen">Walking music volume</string>
+    <string name="notification_volumen">Notification volume</string>
+    <string name="hard_position">00:00:00</string>
+    <string name="hard_duration">01:00:00</string>
+    <string name="soft_position">00:00:00</string>
+    <string name="soft_duration">01:00:00</string>
+
+    <string name="PopUpTotalRuns">Run: </string>
+    <string name="PopUpTotalDistance">Kms: </string>
+    <string name="PopUpTotalTime">Total time: </string>
+    <string name="NoDataWarning">No data. Remember to activate the GPS </string>
+
+    <string name="PopUpDurationTitle">DURATION</string>
+    <string name="PopUpChallengeTitle">OBJETIVE</string>
+    <string name="PopUpIntervalTitle">INTERVAL</string>
+    <string name="PopUpDistanceTitle">DISTANCE</string>
+    <string name="PopUpAvgSpeedTitle">AVERAGE SPEED</string>
+    <string name="PopUpMaxSpeedTitle">MAX SPEED</string>
+    <string name="PopUpUnevennessTitle">UNEVENESS</string>
+
+    <string name="textNull"></string>
+    <string name="textNoData">-</string>
+
+    <string name="medalDistanceDescription">DISTENCE [Personal Record]</string>
+    <string name="medalAvgSpeedDescription">Máx. Speed [Personal Record]</string>
+    <string name="medalMaxSpeedDescription">Avg. Speed [Personal Record]</string>
+    <string name="avg_speed">AVG SPEED</string>
+    <string name="carrera_con_intervalos">Carrera con Intervalos</string>
+    <string name="marcar_objetivo">Objetive</string>
+    <string name="dos_puntos">:</string>
+    <string name="hh_mm_ss">HH:MM:SS</string>
+    <string name="km">KM</string>
+    <string name="notificar_objetivo_alcanzado">Notify Objetive Reached</string>
+    <string name="fin_de_carrera_autom">End run automatically</string>
+    <string name="ajustes_de_audio">Audio config</string>
+    <string name="total_time_13_24_58">Total time: 13:24:58</string>
+    <string name="_00_00_00">00:00:00</string>
+    <string name="_01_00_00">01:00:00</string>
+    <string name="km_h">KM/H</string>
 </resources>

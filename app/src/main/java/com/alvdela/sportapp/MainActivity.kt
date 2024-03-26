@@ -72,4 +72,20 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         val intent = Intent(this, RecordActivity::class.java)
         startActivity(intent)
     }
+
+    fun changeTypeMap(view: View) {}
+    fun callCenterMap(view: View) {}
+    fun callShowHideMap(view: View) {}
+    fun startOrStopButtonClicked(view: View) {}
+    fun takePicture(view: View) {}
+    fun selectBike(view: View) {}
+    fun selectRollerSkate(view: View) {}
+    fun selectRunning(view: View) {}
+    fun inflateIntervalMode(view: View) {}
+    fun inflateChallenges(view: View) {}
+    fun showDuration(view: View) {}
+    fun showDistance(view: View) {}
+    fun inflateVolumnes(view: View) {}
+    fun closePopUp(view: View) {}
+    fun deleteRun(view: View) {}
 }
