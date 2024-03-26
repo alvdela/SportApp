@@ -39,8 +39,9 @@ android {
 
 dependencies {
 
-    implementation(platform("com.google.firebase:firebase-bom:32.8.0"))
-    implementation (platform("com.google.firebase:firebase-auth:22.3.1"))
+    implementation(libs.firebase.bom)
+    implementation (libs.firebase.auth)
+    implementation (libs.circularSeekBar.v142)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)

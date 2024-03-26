@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/nav_item_main"
+            android:icon="@drawable/camino"
+            android:title="@string/running"/>
+        <item android:id="@+id/nav_item_record"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/historial"/>
+        <item android:id="@+id/nav_item_premium"
+            android:icon="@android:drawable/star_on"
+            android:title="@string/hazte_premium"/>
+    </group>
+    <item android:title="@string/cuenta">
+        <menu>
+            <item android:id="@+id/nav_item_clearpreferences"
+                android:icon="@android:drawable/ic_popup_sync"
+                android:title="@string/restablecer_ajustes"/>
+            <item android:id="@+id/nav_item_signout"
+                android:icon="@drawable/close_icon"
+                android:title="@string/logout"/>
+        </menu>
+    </item>
+</menu>

@@ -129,7 +129,6 @@ class LoginActivity : AppCompatActivity() {
             }else{
                 if(termsView.visibility == View.INVISIBLE){
                     termsView.visibility = View.VISIBLE
-                }else if (llRepeatPassword.visibility == View.INVISIBLE){
                     llRepeatPassword.visibility = View.VISIBLE
                 }else{
                     if (termsButton.isChecked){
@@ -141,7 +140,7 @@ class LoginActivity : AppCompatActivity() {
     }
 
     private fun register() {
-        if (inputPassword.text == inputPassword2.text){
+        if (inputPassword.text.toString() == inputPassword2.text.toString()){
             loginAuth.createUserWithEmailAndPassword(email,password)
                 .addOnCompleteListener {
                     if (it.isSuccessful){
@@ -241,7 +240,7 @@ class LoginActivity : AppCompatActivity() {
 
 
             } catch (e: ApiException) {
-                Toast.makeText(this, "Error en la conexión con Google", Toast.LENGTH_SHORT)
+                Toast.makeText(this, "Error en la conexión con Google", Toast.LENGTH_SHORT).show()
             }
         }
     }
