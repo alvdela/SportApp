@@ -39,7 +39,8 @@ android {
 
 dependencies {
 
-    implementation(libs.firebase.bom)
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.play.services.location)
     implementation (libs.firebase.auth)
     implementation (libs.circularSeekBar.v142)
     implementation(libs.androidx.core.ktx)
